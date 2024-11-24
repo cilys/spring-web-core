@@ -1,0 +1,93 @@
+.head {
+	width: 100%;
+	height: 60px;
+	background-color: var(--main-color);
+	display: flex;
+	align-items: center;
+}
+
+.head > .icon {
+	font-size: 20px;
+	margin-left: 160px;
+	color: white;
+}
+
+.head > .title {
+	font-size: 24px;
+	margin-left: 280px;
+	color: white;
+}
+
+.bottom {
+	width: 100%;
+	height: calc(100vh - 60px);
+	display: flex;
+}
+
+.left-nav {
+	width: 260px;
+	height: 100%;
+	background-color: var(--main-color);
+	color: white;
+	overflow: hidden;
+}
+
+.left-nav > div {
+	width: calc(100% - 0px);
+	height: calc(100% - 40px);
+	overflow: scroll;
+	padding: 20px 0px;
+}
+
+.menu {
+	height: 30px;
+	display: flex;
+	align-items: center;
+	cursor: pointer;
+	padding: 10px 20px;
+	font-size: 16px;
+}
+
+.menu:hover {
+	background: var(--main-color-hover);
+}
+
+.menu > .title {
+	display: inline-block;
+	white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.menu .arrow {
+	margin-left: 10px;
+}
+
+.right {
+	height: 100%;
+	flex-grow: 1;
+	display: flex;
+    flex-direction: column;
+}
+
+.right .tab {
+	height: 40px;
+	width: 100%;
+	display: flex;
+	align-content: center;
+	background-color: var(--bottom-color);
+}
+
+.right .tab > div {
+	width: 120px;
+	margin-left: 5px;
+}
+
+.right > .content {
+	flex-grow: 1;
+}
+
+.right > .bottom {
+	height: 40px;
+	background-color: var(--bottom-color);
+}

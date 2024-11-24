@@ -1,0 +1,35 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	border: none;
+}
+
+ul, li, ol {
+	list-style: none;
+}
+
+:root {
+	--main-color : #6F6F6F;
+	--main-color-hover : #CCC8;
+	--bottom-color : #E9EAEC;
+}
+
+::-webkit-scrollbar {
+	width: 1px;
+	height: 1px;
+
+}
+
+/*定义滚动条轨道 内阴影+圆角*/
+::-webkit-scrollbar-track {
+	box-shadow: inset 0 0 0px rgba(180, 180, 180, .5);
+	border-radius: 10px;
+
+}
+
+/*定义滑块 内阴影+圆角*/
+::-webkit-scrollbar-thumb {
+	border-radius: 10px;
+	box-shadow: inset 0 0 0px rgba(180, 180, 180, .5);
+
+}
